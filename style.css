@@ -1,0 +1,38 @@
+
+*{
+ margin: 0;
+ padding:0;
+ box-sizing: border-box;
+}.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border:10px solid #1d1e4c;
+}
+.top{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.top h3{
+    font-size: 20px;
+    text-align: end;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.imageContainer{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.imageContainer,img{
+  width: 300px;
+  height: 320px;
+}
